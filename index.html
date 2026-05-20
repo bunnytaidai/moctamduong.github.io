@@ -1,0 +1,23 @@
+<!DOCTYPE html> <!-- Khai báo đây là một tài liệu HTML5 -->
+<html> <!-- Bắt đầu một tài liệu HTML -->
+<head> <!-- Phần đầu của tài liệu, chứa các thông tin meta và liên kết -->
+    <title>MOC TAM DUONG</title> <!-- Tiêu đề của trang -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> <!-- Cấu hình viewport để khóa zoom và kéo -->
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Liên kết đến tệp CSS -->
+</head>
+<body>
+    <!-- Vùng chứa sách lật -->
+    <div class="flipbook-container">
+        <div id="flipbook" class="flipbook"></div>
+    </div>
+
+    <!-- Thanh icon (sẽ được tạo tự động bởi icon-manager.js) -->
+    <div class="icon-bar"></div>
+
+    <!-- Tải các thư viện và script cần thiết -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="page-flip.browser.js"></script>
+    <script src="main.js"></script>
+    <script src="icon-manager.js"></script> <!-- Tải script quản lý icon -->
+</body>
+</html>
