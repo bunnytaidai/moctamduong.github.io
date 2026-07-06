@@ -1,0 +1,74 @@
+{
+  "site_title": "Muxintang Spa Tu Thien",
+  "global_bg": "",
+  "pages": [
+    {
+      "id": "page_1",
+      "order": 1,
+      "type": "image",
+      "image": "images/dau.jpg",
+      "name": "Trang Bìa Trước"
+    },
+    {
+      "id": "page_2",
+      "name": "Giới thiệu / Cứu ngải (GitHub Mock)",
+      "type": "custom",
+      "order": 2,
+      "image": "localdb://page_image_page_2",
+      "bg_image": "",
+      "texts": [
+        {
+          "id": "text_1783336322101",
+          "content": "Nội dung chữ mới from GitHub Mock",
+          "font": "Montserrat",
+          "size": 16,
+          "color": "#c5a059",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "x": 20,
+          "y": 40
+        }
+      ],
+      "services": [],
+      "services_x": 10,
+      "services_y": 25,
+      "services_w": 80
+    },
+    {
+      "id": "page_3",
+      "order": 3,
+      "type": "image",
+      "image": "images/3.jpg",
+      "name": "Gội đầu dưỡng sinh"
+    },
+    {
+      "id": "page_4",
+      "order": 4,
+      "type": "image",
+      "image": "images/4.jpg",
+      "name": "Massage cổ vai gáy"
+    },
+    {
+      "id": "page_5",
+      "order": 5,
+      "type": "image",
+      "image": "images/5.jpg",
+      "name": "Chăm sóc thắt lưng"
+    },
+    {
+      "id": "page_6",
+      "order": 6,
+      "type": "image",
+      "image": "images/6.jpg",
+      "name": "Ngâm chân thảo dược"
+    },
+    {
+      "id": "page_7",
+      "order": 7,
+      "type": "image",
+      "image": "images/cuoi.jpg",
+      "name": "Trang Bìa Sau"
+    }
+  ]
+}
